@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  flytube:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-05-28T12:42:53.29550949Z"
+    description: A Helm chart for Kubernetes Relay backend for Firefly. The deployment
+      contains a single pod that creates SSH reverse tunnel between a local service
+      and Firefly Relay frontend.
+    digest: feba0311275dee21ccaf16652fb893b9359c449047bc598ba1125b45bb8e8e43
+    name: flytube
+    type: application
+    urls:
+    - https://github.com/gofireflyio/flytube/releases/download/flytube-0.1.1/flytube-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-05-28T12:42:53.29551479Z"
